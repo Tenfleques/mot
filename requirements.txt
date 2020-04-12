@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-image
+torch 
+torchvision
+numba
+Pillow
+filterpy
+opencv-python-headless
