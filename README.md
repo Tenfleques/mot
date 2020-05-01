@@ -1,5 +1,5 @@
 # PyTorch Object Detection and Tracking and Re-entry
-Object detection in images, and tracking across video frames
+Object detection and tracking across video frames, re-entry supported
 
 
 References:
