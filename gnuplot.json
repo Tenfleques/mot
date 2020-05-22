@@ -1,0 +1,169 @@
+"name": "gnuplot",
+"full_name": "gnuplot",
+"oldname": null,
+"aliases": [
+    "gnuplot@5"
+],
+"versioned_formulae": [
+    "gnuplot@4"
+],
+"desc": "Command-driven, interactive function plotting",
+"homepage": "http://www.gnuplot.info/",
+"versions": {
+    "stable": "5.2.8",
+    "devel": null,
+    "head": "HEAD",
+    "bottle": true
+},
+"urls": {
+    "stable": {
+        "url": "https://downloads.sourceforge.net/project/gnuplot/gnuplot/5.2.8/gnuplot-5.2.8.tar.gz",
+        "tag": null,
+        "revision": null
+    }
+},
+"revision": 0,
+"version_scheme": 0,
+"bottle": {
+    "stable": {
+        "rebuild": 0,
+        "cellar": "/usr/local/Cellar",
+        "prefix": "/usr/local",
+        "root_url": "https://homebrew.bintray.com/bottles",
+        "files": {
+            "catalina": {
+                "url": "https://homebrew.bintray.com/bottles/gnuplot-5.2.8.catalina.bottle.tar.gz",
+                "sha256": "752b5a6f7e93af1e2a23e8ab27c6d19d286f50b054eb0b7accdfa5765c69b3b0"
+            },
+            "mojave": {
+                "url": "https://homebrew.bintray.com/bottles/gnuplot-5.2.8.mojave.bottle.tar.gz",
+                "sha256": "645bff55538d6610cf93539dbeec5067a750a6edc0fbbbab6e34710c16db10ef"
+            },
+            "high_sierra": {
+                "url": "https://homebrew.bintray.com/bottles/gnuplot-5.2.8.high_sierra.bottle.tar.gz",
+                "sha256": "36f2d97fbf5772eef3cd0f1988997848e7367ab7943a2542ea15d93bbfd083ce"
+            }
+        }
+    }
+},
+"keg_only": false,
+"bottle_disabled": false,
+"options": [],
+"build_dependencies": [
+    "pkg-config"
+],
+"dependencies": [
+    "gd",
+    "libcerf",
+    "lua",
+    "pango",
+    "qt",
+    "readline"
+],
+"recommended_dependencies": [],
+"optional_dependencies": [],
+"uses_from_macos": [],
+"requirements": [],
+"conflicts_with": [],
+"caveats": null,
+"installed": [],
+"linked_keg": null,
+"pinned": false,
+"outdated": false,
+"analytics": {
+    "install": {
+        "30d": {
+            "gnuplot": 8977,
+            "gnuplot --with-x11": 139,
+            "gnuplot --with-aquaterm --with-x11": 38,
+            "gnuplot --with-aquaterm": 31,
+            "gnuplot --HEAD": 14,
+            "gnuplot --with-cairo --with-aquaterm --with-pdflib-lite --with-x11": 6,
+            "Gnuplot": 1,
+            "gnuplot --with-libcaca --with-qt --with-wxmac --with-x11": 1,
+            "gnuplot --with-qt": 1,
+            "gnuplot --with-wxmac": 1
+        },
+        "90d": {
+            "gnuplot": 26687,
+            "gnuplot --with-x11": 271,
+            "gnuplot --with-aquaterm --with-x11": 102,
+            "gnuplot --with-aquaterm": 84,
+            "gnuplot --HEAD": 41,
+            "gnuplot --with-cairo --with-aquaterm --with-pdflib-lite --with-x11": 6,
+            "gnuplot --with-aquaterm --with-wxmac": 4,
+            "gnuplot --with-libcaca --with-qt --with-wxmac --with-x11": 3,
+            "gnuplot --with-qt": 3,
+            "gnuplot --with-cairo --without-lua --with-wxmac --with-pdflib-lite --with-qt@5.7 --with-x11": 2,
+            "Gnuplot": 1,
+            "gnuplot --HEAD --with-libcaca --with-qt --with-wxmac --with-x11": 1,
+            "gnuplot --with-cairo --with-aquaterm --with-x11": 1,
+            "gnuplot --with-wxmac": 1
+        },
+        "365d": {
+            "gnuplot": 131279,
+            "gnuplot --with-aquaterm": 508,
+            "gnuplot --with-x11": 501,
+            "gnuplot --with-aquaterm --with-x11": 369,
+            "gnuplot --HEAD": 147,
+            "gnuplot --with-qt": 26,
+            "gnuplot --with-aquaterm --with-wxmac --with-x11": 13,
+            "gnuplot --with-wxmac --with-libcaca --with-x11": 13,
+            "gnuplot --HEAD --with-wxmac --with-libcaca --with-x11": 7,
+            "gnuplot --with-cairo --with-aquaterm --with-pdflib-lite --with-x11": 6,
+            "gnuplot --with-qt --with-x11": 6,
+            "gnuplot --with-wxmac --with-x11": 5,
+            "gnuplot --with-x --qt --aquaterm": 5,
+            "gnuplot --with-aquaterm --with-wxmac": 4,
+            "gnuplot --with-libcaca --with-qt --with-wxmac --with-x11": 4
+        }
+    },
+    "install_on_request": {
+        "30d": {
+            "gnuplot": 5253,
+            "gnuplot --with-x11": 139,
+            "gnuplot --with-aquaterm --with-x11": 36,
+            "gnuplot --with-aquaterm": 31,
+            "gnuplot --HEAD": 14,
+            "Gnuplot": 1,
+            "gnuplot --with-libcaca --with-qt --with-wxmac --with-x11": 1,
+            "gnuplot --with-wxmac": 1
+        },
+        "90d": {
+            "gnuplot": 15347,
+            "gnuplot --with-x11": 270,
+            "gnuplot --with-aquaterm --with-x11": 99,
+            "gnuplot --with-aquaterm": 81,
+            "gnuplot --HEAD": 41,
+            "gnuplot --with-aquaterm --with-wxmac": 4,
+            "gnuplot --with-libcaca --with-qt --with-wxmac --with-x11": 3,
+            "gnuplot --with-qt": 2,
+            "Gnuplot": 1,
+            "gnuplot --HEAD --with-libcaca --with-qt --with-wxmac --with-x11": 1,
+            "gnuplot --with-cairo --with-aquaterm --with-x11": 1,
+            "gnuplot --with-wxmac": 1
+        },
+        "365d": {
+            "gnuplot": 74000,
+            "gnuplot --with-aquaterm": 504,
+            "gnuplot --with-x11": 497,
+            "gnuplot --with-aquaterm --with-x11": 364,
+            "gnuplot --HEAD": 146,
+            "gnuplot --with-qt": 23,
+            "gnuplot --with-aquaterm --with-wxmac --with-x11": 13,
+            "gnuplot --with-wxmac --with-libcaca --with-x11": 13,
+            "gnuplot --HEAD --with-wxmac --with-libcaca --with-x11": 7,
+            "gnuplot --with-qt --with-x11": 6,
+            "gnuplot --with-x --qt --aquaterm": 5,
+            "gnuplot --with-aquaterm --with-wxmac": 4,
+            "gnuplot --with-libcaca --with-qt --with-wxmac --with-x11": 4
+        }
+    },
+    "build_error": {
+        "30d": {
+            "gnuplot": 0
+        }
+    }
+},
+"generated_date": "2020-05-17"
+}
